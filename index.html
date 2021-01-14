@@ -3,92 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin-Fashion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <title>Penguin-Fashion</title>
+    
+    
 </head>
 <body>
     
-        <header class="container m-5">
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top justify-content-center align-items-center">
-                <div class="container-fluid logo-img">
-                  <a class="navbar-brand" href="#"><img src="logo/Logo.png" alt=""></a>
+        <header class="back-c">
+            <nav class="navbar d-flex navbar-expand-lg navbar-light fixed-top justify-content-center align-items-center">
+                <div class="container-fluid">
+                  <a class="navbar-brand m-lg-2 p-3" href="#"><img src="logo/Logo.png" class="w-50 ms-4" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup ">
+                    <div class="navbar-nav position-absolute end-0">
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="#shoes">Products</a>
-                      <a class="nav-link" href="#backpack">About us</a>
-                      <a class="nav-link" href="#subscribe">Contact us</a>
+                      <a class="nav-link" href="#product">Products</a>
+                      <a class="nav-link" href="#aboutus">About us</a>
+                      <a class="nav-link" href="#contactus">Contact us</a>
                     </div>
                   </div>
                 </div>
               </nav>
+
+              <section class="m-5">
+                <div class="row mt-5">
+                  <div class="col-md-6 d-flex align-items-center justify-content-center na">
+                    <div class="mar">
+                        <h1><span class="text-info">NIKE REACTS</span><br> INFINITY WAR 2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, non assumenda. Eligendi aliquam vero recusandae, omnis soluta rerum reiciendis vitae delectus, cumque, alias mollitia doloribus beatae. Nihil obcaecati optio consectetur!</p>
+                      
+                    <button class="btn btn-danger">
+                      <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                    </div>  
+                  </div>
+                  <div class="col-md-6 na">
+                      <img src="Photos/Group 33092.png" class="d-block w-75" alt="...">
+                  </div>
+             </div>
+            </section>
     </header>
     <main>
-        <section class="m-5">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center p-5">
-                <div>
-                    <h1><span>BE THE PENGUINS</span><br> OF THE WINTER</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, non assumenda. Eligendi aliquam vero recusandae, omnis soluta rerum reiciendis vitae delectus, cumque, alias mollitia doloribus beatae. Nihil obcaecati optio consectetur!</p>
-                  
-                <button class="btn btn-danger">Buy Now</button>
-                </div>  
-              </div>
-              <div class="col-md-6">
-                  <img src="Photos/Group 33092.png" class="d-block w-100" alt="...">
-              </div>
-         </div>
-        </section>
 
-        <section id="shoes" class="mt-5">
-            <h3>Shoes</h3>
+        <section id="product" class="m-5 ">
+            <h3>Casual Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card card-panda h-100 shadow">
-                  <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Red-Air-max</h5>
-                    <h5>$150</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="card  h-100 shadow card-radius">
+                  <div class="b-grey">
+                    <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
                   </div>
-                  <div class="card-footer panda-card-footer">
-                    <button class="btn btn-warning">Buy Now >></button>
+                  
+                  <div class="card-body m-3">
+                    <h4 class="card-title">Red-Air-max</h4>
+                    
+                    <p class="card-text">This is a wider card with supporting text</p>
+                  </div>
+                  <div class="bg-white border-0">
+                
+                    <div class="d-flex justify-content-center align-items-lg-center m">
+                      <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                      <button class="btn btn-warning position-absolute bottom-0 end-0">
+                        <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card card-panda h-100 shadow">
-                 
+                <div class="card  h-100 shadow card-radius">
+                 <div class="b-grey">
                   <img src="Photos/image 5.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                 </div>
+                  
+                  <div class="card-body m-3 mb-5">
                     <h5 class="card-title">Supply-360</h5>
-                    <h5>$150</h5>
-                    <p class="card-text">This card card-panda has supporting text below as a natural lead-in to additional content.</p>
+                    
+                    <p class="card-text">This card  has supporting text .</p>
                   </div>
-                  <div class="card-footer panda-card-footer">
-                    <button class="btn btn-warning">Buy Now >></button>
+                  <div class="bg-white border-0">
+                
+                    <div class="d-flex justify-content-center align-items-lg-center">
+                      <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                      <button class="btn btn-warning position-absolute bottom-0 end-0">
+                        <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card card-panda h-100 shadow">
-                  <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Nike-90</h5>
-                    <h5>$150</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card card-panda has even longer content than the first to show that equal height action.</p>
+                <div class="card h-100 shadow card-radius">
+                  <div class="b-grey">
+                    <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
                   </div>
-                  <div class="card-footer panda-card-footer">
-                    <button class="btn btn-warning">Buy Now >></button>
+                 
+                  <div class="card-body m-3">
+                    <h5 class="card-title">Nike-90</h5>
+                    
+                    <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                  </div>
+                  <div class="bg-white border-0">
+                
+                    <div class="">
+                      <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                      <button class="btn btn-warning position-absolute bottom-0 end-0"><img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now 
+
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
               </div>
             </section>
+            <section class="m-5">
+                <h3>Formal Shoes</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card  h-100 shadow card-radius">
+                      <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
+                      <div class="card-body m-3 mb-lg-5">
+                        <h4 class="card-title">Red-Air-max</h4>
+                        
+                        <p class="card-text">This is a wider card with supporting text below as a natural</p>
+                      </div>
+                      <div class="bg-white border-0">
+                    
+                        <div class="d-flex justify-content-center align-items-lg-center m">
+                          <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                          <button class="btn btn-warning position-absolute bottom-0 end-0">
+                            <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card  h-100 shadow card-radius">
+                     
+                      <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                      <div class="card-body m-3 mb-lg-5">
+                        <h5 class="card-title">Supply-360</h5>
+                        
+                        <p class="card-text">This card  has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      <div class="bg-white border-0">
+                    
+                        <div class="d-flex justify-content-center align-items-lg-center">
+                          <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                          <button class="btn btn-warning position-absolute bottom-0 end-0">
+                            <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 shadow card-radius">
+                      <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                      <div class="card-body m-3 mb-lg-5">
+                        <h5 class="card-title">Nike-90</h5>
+                        
+                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                      </div>
+                      <div class="bg-white border-0">
+                    
+                        <div class="">
+                          <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                          <button class="btn btn-warning position-absolute bottom-0 end-0"><img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now 
+
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </section>
+                <section class="m-5">
+                  <h3>Boots</h3>
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card  h-100 shadow card-radius">
+                        <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
+                        <div class="card-body m-3 mb-lg-5">
+                          <h4 class="card-title">Red-Air-max</h4>
+                          
+                          <p class="card-text">This is a wider card with supporting text below as a natural</p>
+                        </div>
+                        <div class=" bg-white border-0">
+                      
+                          <div class="d-flex justify-content-center align-items-lg-center m">
+                            <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                            <button class="btn btn-warning position-absolute bottom-0 end-0">
+                              <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card  h-100 shadow card-radius">
+                       
+                        <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                        <div class="card-body m-3 mb-lg-5">
+                          <h5 class="card-title">Supply-360</h5>
+                          
+                          <p class="card-text">This card  has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="bg-white border-0">
+                      
+                          <div class="d-flex justify-content-center align-items-lg-center">
+                            <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                            <button class="btn btn-warning position-absolute bottom-0 end-0">
+                              <img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 shadow card-radius">
+                        <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                        <div class="card-body m-3 mb-lg-5">
+                          <h5 class="card-title">Nike-90</h5>
+                          
+                          <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        </div>
+                        <div class="bg-white border-0">
+                      
+                          <div class="">
+                            <h3 class=" position-absolute bottom-0 start-0">$1750</h3>
+                            <button class="btn btn-warning position-absolute bottom-0 end-0"><img class="sp-img" src="logo/shopping-cart 1.png" alt=""> Buy Now 
+  
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </section>
+                <section id="aboutus" class="ma-bo">
+                  <div class="row g-5">
+                    <div class="col-md-5">
+                      
+                      <div class="card mb-3 shadow border-0 ra ms-5" style="max-width: 800px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="Logo/image 12.png" class="w-75 h-75 align-items-start m-3" alt="...">
+                          </div>
+                          <div class="col-md-8 mt-3">
+                            <div class="card-body">
+                              <h3 class="card-title">Find Perfect FIt</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat.</p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card mb-3 shadow border-0 ra ms-5" style="max-width: 800px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="Logo/image 13.png" class="w-75 h-75 align-items-start m-3" alt="...">
+                          </div>
+                          <div class="col-md-8 mt-3">
+                            <div class="card-body">
+                              <h3 class="card-title">Free Exchange</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat.</p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card mb-3 shadow border-0 ra ms-5" style="max-width: 800px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="Logo/image 14.png" class="w-75 h-75 align-items-start m-3" alt="...">
+                          </div>
+                          <div class="col-md-8 mt-3">
+                            <div class="card-body">
+                              <h3 class="card-title">Contact Our Seller</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat.</p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      </div>
+                       
+                    <div class="col-md-7">
+                        <img src="Logo/XMLID 1.png" class="d-block bott-img w-100" alt="...">
+                    </div>
+              </div>
+              </section>
+            </section>
+            <section id="contactus" style="height: 300px" class = "bg-danger m-5 rounded-3 d-flex align-items-center justify-content-center">
+  
+              <div >
+                  <h1>LET'S STAY IN TOUCH</h1>
+                  <h5>Get's Update and more</h5>
+                  <input type="text" placeholder="Write Here..">
+                  <button class="btn-warning">SUBMIT</button>
+              </div>
+            </section>
     </main>
+    <footer>
+      <hr>
+      <small class="text-center mt-5"><p>2021 || All right reserved</p></p></small>
+    </footer>
 </body>
 </html>

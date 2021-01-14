@@ -1,2 +1,59 @@
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
 
+h3{
+    font-size: 80px:
+    font-weight:30px;
+}
+}
+p{
+    font-weight:20px;
+}
+.mar{
+    margin-top: 100px;
+}
+.na{
+    margin-top: 80px;
+    display: flex;
+}
+.sp-img{
+    width: 50px;
+    height: 50px;
+}
+}
+
+.ra{
+    border-radius: 400px;
+}
+
+
+.ma-bo{
+    margin: 100px 100px;
+}
+
+.back-c{
+    background-color: rgba(245, 161, 131, 0.431);
+    margin-top: -50px;
+    height:1000px;
+}
+.card-radius{
+    border-radius: 40px;
+    border: none;
+}
+.ig-back{
+    border-radius: 40px;
+    border: none;
+   
+    
+}
+.b-grey{
+    background-color: rgba(192, 186, 186, 0.452);
+    border-radius: 40px;
+    margin: 20px;
+}
